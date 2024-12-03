@@ -1,16 +1,13 @@
-package Tests;
-import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.Selenide.open;
-
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-public class TextBoxTest {
+import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selenide.*;
 
+public class TextBoxTest {
     @BeforeAll
-    static void beforeAll2(){
+    static void beforeAll20(){
         Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.pageLoadStrategy = "eager";
@@ -21,7 +18,7 @@ public class TextBoxTest {
 
 
     @Test
-    void LoginTest() {
+    void LoginTest10() {
         open("/text-box");
         $("#userName").setValue("TestName");
         $("#userEmail").setValue("sa@jm.com");

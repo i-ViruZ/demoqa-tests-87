@@ -51,7 +51,7 @@ public class HomeWorkTests {
         $("#currentAddress").setValue("Street");
         $("#state").click();
         $("#react-select-3-option-3").click();
-        //$(withText("Rajasthan")).click(); //аналогично ыерхнему варианту
+        //$(withText("Rajasthan")).click(); //аналогично верхнему варианту
         $("#city").click();
         $(withText("Jaiselmer")).click();
         $("#submit").click();
